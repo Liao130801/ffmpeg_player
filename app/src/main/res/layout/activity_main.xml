@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/shipin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/dong"
+
+        android:layout_width="wrap_content"
+
+
+        android:layout_height="wrap_content"
+        android:text="donghua"
+        />
+
+
+
+    <Button
+        android:id="@+id/tiaozhuan"
+
+        android:layout_width="wrap_content"
+
+        android:onClick="tiao"
+        android:layout_height="wrap_content"
+        android:text="跳转"
+        />
+    <Button
+        android:id="@+id/video"
+
+        android:layout_width="wrap_content"
+
+        
+        android:layout_height="wrap_content"
+        android:onClick="tiaovideo"
+        android:text="video"
+        />
+    <Button
+        android:id="@+id/down"
+
+        android:layout_width="wrap_content"
+
+
+        android:layout_height="wrap_content"
+        android:onClick="down"
+        android:text="down"
+        />
+
+</LinearLayout>
+
+</LinearLayout>

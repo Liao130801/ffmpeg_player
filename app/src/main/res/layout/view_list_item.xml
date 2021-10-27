@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--文件或文件夹图标显示区域布局设定-->
+    <ImageView
+        android:id="@+id/lvew_img"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="8dp"
+        />
+    <!--文件名显示区域布局-->
+    <TextView
+        android:id="@+id/lview_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textColor="#FF0000"
+        android:textSize="24sp" />
+
+</LinearLayout>
